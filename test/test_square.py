@@ -6,7 +6,6 @@ print(os.getcwd())
 
 
 from square import Square
-import pytest
 
 
 def test_square_area():
@@ -17,6 +16,7 @@ def test_square_area():
 def test_square_perimeter():
     sq3 = Square(3)
     assert sq3.perimeter == 12, "Square side=3, perimeter=12"
+
 
 def test_square_add():
     sq5 = Square(5)

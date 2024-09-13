@@ -5,7 +5,6 @@ sys.path.append("src")
 print(os.getcwd())
 
 
-from src.figure import Figure
 from src.circle import Circle
 import pytest
 
@@ -33,7 +32,10 @@ def test_circle_area(before_circle_area):
     cir2 = Circle(2)
     assert cir2.area == 13, f"Площадь круга радиусом 2 должна быть равна 13"
 
+
 def test_circle_add():
     cir3 = Circle(3)
     cir4 = Circle(4)
-    assert cir3.add_area(cir4) == 78, f"Площадь двух окружностей с радиусами 3 и 4 должна быть равна 78"
+    assert (
+        cir3.add_area(cir4) == 78
+    ), f"Площадь двух окружностей с радиусами 3 и 4 должна быть равна 78"

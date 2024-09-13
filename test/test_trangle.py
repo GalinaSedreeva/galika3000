@@ -26,6 +26,7 @@ def test_triangle_perimeter(a, b, c, perimeter):
     tri1 = Triangle(a, b, c)
     assert tri1.perimeter == perimeter, f"perimeter should be eq {perimeter}"
 
+
 @pytest.mark.parametrize(
     "a, b, c, area",
     [
@@ -34,7 +35,7 @@ def test_triangle_perimeter(a, b, c, perimeter):
         (1.5, 2.5, 3.5, 30),
     ],
     ids=[
-        'integer',
+        "integer",
         "smoke",
         "real",
     ],
@@ -42,6 +43,7 @@ def test_triangle_perimeter(a, b, c, perimeter):
 def test_triangle_area(a, b, c, area):
     tri1 = Triangle(a, b, c)
     assert tri1.area == area, f"area should be eq {area}"
+
 
 def test_triangle_add():
     tri2 = Triangle(3.5, 4.5, 7.5)
