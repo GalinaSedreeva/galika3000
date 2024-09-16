@@ -1,0 +1,8 @@
+__pycache__
+.pytest_cache
+.venv
+src/__pycache__/
+test\.pytest_cache
+test\__pycache__
+test\__init__.py
+cheking.py
