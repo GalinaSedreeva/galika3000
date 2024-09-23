@@ -1,12 +1,6 @@
 __pycache__
 .pytest_cache
 .venv
-src/__pycache__/
-test\.pytest_cache
-test\__pycache__
-test\__init__.py
-cheking.py
-task4.ipynb
-/*
-!/task_json
-/task_json/*
+.vscode
+.src
+.test
