@@ -72,5 +72,6 @@ def test_triange_negative():
 
 def test_triange_negative():
     with pytest.raises(
-        ValueError, match="Треугольник с такими сторонами не существует"):
+        ValueError, match="Треугольник с такими сторонами не существует"
+    ):
         tri = Triangle(1, 2, 3)

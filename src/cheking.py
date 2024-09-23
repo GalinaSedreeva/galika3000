@@ -46,6 +46,6 @@ from circle import Circle
 # rec10 = Rectangle(10,5)
 # print(tri2.add_area(rec10))
 # sq3 = Square(0.5)
-cir10 = Circle(-11)
+#cir10 = Circle(-11)
 cir3 = Rectangle(3, 15)
-print("Сумма площадей круг: ", cir10.add_area(cir3), "\n")
+#print("Сумма площадей круг: ", cir10.add_area(cir3), "\n")
